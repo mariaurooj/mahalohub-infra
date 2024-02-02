@@ -1,0 +1,9 @@
+variable "cluster_name" {}
+variable "cluster_id" {}
+variable "task_definition_arn" {}
+variable "ecs_tasks_sg" {}
+variable "subnet_ids" {}
+variable "ecs_service" {}
+variable "prefix" {}
+variable "alb_target_group_arn" {}
+variable "target_group_port" {}
